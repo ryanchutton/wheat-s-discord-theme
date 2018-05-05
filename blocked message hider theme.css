@@ -1,0 +1,25 @@
+.message-group-blocked
+{
+	display: none;
+}
+
+.message-group-blocked {
+    background: #303030!important;
+    border: 0px solid #181818!important;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    -webkit-transition: 300ms ease;
+    transition: 300ms ease
+}
+
+.message-group-blocked:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important
+}
+
+.friends-table .messages .message-group-blocked .message-group-blocked-btn,
+.messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: #212121!important;
+    color: rgba(255, 255, 255, .5)!important;
+    border-radius: 3px;
+    opacity: .6
+}
